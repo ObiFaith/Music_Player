@@ -58,8 +58,6 @@ audio.addEventListener('timeupdate', ()=>{
         nextMusic();
 })
 
-document.addEventListener('DOMContentLoaded', playMusic);
-
 let keyId = 0;
 document.addEventListener('keypress', e => {  
     if (e.key === ' ')
