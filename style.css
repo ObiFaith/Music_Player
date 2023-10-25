@@ -24,7 +24,7 @@ main{
 .music_actor{padding-bottom: .3rem;}
 .music_img{background: url("./Img/headphone1.jpg") no-repeat center/cover; min-height: 30vh; border-radius: 1rem 1rem 0 0;border: 1px solid #fff;}
 .music_detail{ padding-block: clamp(2rem, 3rem, 2.5vw);padding-inline: clamp(1rem, 3rem, 4vw) }
-.music-controls{display: flex; gap: clamp(1rem, 3rem, 2vw); justify-content: center; align-items: center;}
+.music-controls{display: flex; gap: clamp(2rem, 3rem, 2vw); justify-content: center; align-items: center;}
 .music-controls img{cursor: pointer;}
 .music-progress-bar{margin-block: clamp(1.5rem, 2rem, 2vw);background-color: #333; height: .5rem; border-radius: 1rem;}
 .music-progress{background-color: #ccc; min-height: 100%;border-radius: .8rem; width: 0%}

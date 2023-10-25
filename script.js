@@ -60,13 +60,14 @@ audio.addEventListener('timeupdate', ()=>{
 
 let keyId = 0;
 document.addEventListener('keypress', e => {  
-    if (e.key === ' ')
+    let key = e.key.toLowerCase();
+    if (key === ' ')
         playPauseMusic()
-    else if (e.key === 'n')
+    else if (key === 'n')
         nextMusic();
-    else if (e.key === 'p')
+    else if (key === 'p')
         prevMusic();
-    else if (e.key === 's'){
+    else if (key === 's'){
         audio.currentTime = 0; 
         pauseMusic();
     }
