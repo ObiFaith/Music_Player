@@ -1,0 +1,30 @@
+*{margin: 0; box-sizing: border-box;}
+body{ font: 1.4 18px "Poppins", sans-serif; padding: 0;}
+
+img{max-width: 100%;}
+main{
+    border: 2px solid;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    background-color: #777;
+    background-image: url('./Img/headphone.jpg');
+    background-blend-mode: multiply;
+}
+.container{
+    width: min(480px, 95%);
+    margin-inline: auto;
+    border-radius: 1rem;    
+    background-color: #e9edee;
+    color: #23354d;
+    box-shadow: 0 0 .5rem rgba(0,0,0,.7);
+    text-align: center;
+}
+.music_actor{padding-bottom: .3rem;}
+.music_img{background: url("./Img/headphone1.jpg") no-repeat center/cover; min-height: 30vh; border-radius: 1rem 1rem 0 0;border: 1px solid #fff;}
+.music_detail{ padding: 3rem 1rem; }
+.music-controls{display: flex; gap: clamp(1rem, 3rem, 2vw); justify-content: center; align-items: center;}
+.music-controls img{cursor: pointer;}
+.music-progress-bar{margin: clamp(1.5rem, 2rem, 2vw); background-color: #333; height: .5rem; border-radius: 1rem;}
+.music-progress{background-color: #ccc; min-height: 100%;border-radius: .8rem; width: 0%}
